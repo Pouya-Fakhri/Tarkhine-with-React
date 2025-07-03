@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: vazir-bold;
+  font-style: bold;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./fonts/Vazir-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir-light;
+  font-style: light;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./fonts/Vazir-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir-medium;
+  font-style: medium;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./fonts/Vazir-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir-thin;
+  font-style: thin;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./fonts/Vazir-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: vazir-normal;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("./fonts/Vazir.woff2") format("woff2");
+}
+
+@theme {
+  --color-Primary: #417F56;
+}
+
+.dropButton:hover .dropCard{
+  display: flex;
+}
+.dropCard:hover{
+  display: flex;
+
+}
