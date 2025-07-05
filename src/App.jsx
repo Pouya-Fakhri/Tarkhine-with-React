@@ -7,7 +7,7 @@ import TestPage from "./components/pages/TestPage";
 
 function App() {
   return (
-    <div>
+    <div className=" overflow-x-hidden" >
       <Headere />
       <Routes>
         <Route path="/" element={<Home />} />

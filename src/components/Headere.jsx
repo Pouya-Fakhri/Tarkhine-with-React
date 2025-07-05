@@ -23,13 +23,14 @@ function Headere() {
               isPending
                 ? "pending"
                 : isActive
-                ? "text-Primary underline font-[vazir-bold]"
+                ? "text-Primary  font-[vazir-bold]  border-b-1"
                 : ""
             }
           >
             صفحه اصلی
           </NavLink>
         </li>
+        {/* this 2 link has dropdown */}
         <li className="flex items-center relative">
           <NavLink
             to="TestPage"
@@ -37,15 +38,16 @@ function Headere() {
               isPending
                 ? "ali"
                 : isActive
-                ? "text-Primary underline font-[vazir-bold] border-b-1"
+                ? "text-Primary  font-[vazir-bold] border-b-1"
                 : "alo"
             }
           >
             شعبه{" "}
           </NavLink>
+          {/* drop down */}
           <span className="dropButton">
             <img src={Arrow} alt="Arrow" />
-            <div className="dropCard   w-36 h-40 absolute top-5 left-1 shadow-[0px_0px_6px_0px_rgba(0,_0,_0,_0.15)] rounded-md py-1 px-2 hidden flex-col justify-around">
+            <div className="dropCard z-10 bg-white w-36 h-40 absolute top-5 left-1 shadow-[0px_0px_6px_0px_rgba(0,_0,_0,_0.15)] rounded-md py-1 px-2 hidden flex-col justify-around">
               <div className=" border-b-1 ">
                 <Link to={"TestPage"} className="w-full flex ">
                   اکباتان
@@ -76,15 +78,16 @@ function Headere() {
               isPending
                 ? "pending"
                 : isActive
-                ? "text-Primary underline font-[vazir-bold]"
+                ? "text-Primary  font-[vazir-bold]  border-b-1"
                 : ""
             }
           >
             منو
           </NavLink>
+          {/* drop down */}
           <span className="dropButton">
             <img src={Arrow} alt="Arrow" />
-            <div className="dropCard   w-36 h-40 absolute top-5 left-0.5 shadow-[0px_0px_6px_0px_rgba(0,_0,_0,_0.15)] rounded-md py-1 px-2 hidden flex-col justify-around">
+            <div className="dropCard z-10 bg-white  w-36 h-40 absolute top-5 left-0.5 shadow-[0px_0px_6px_0px_rgba(0,_0,_0,_0.15)] rounded-md py-1 px-2 hidden flex-col justify-around">
               <div className=" border-b-1 ">
                 <Link to={"TestPage"} className="w-full flex ">
                   غذای اصلی
@@ -108,6 +111,7 @@ function Headere() {
             </div>
           </span>
         </li>
+        {/*  */}
         <li>
           <NavLink
             to="TestPage"
@@ -115,7 +119,7 @@ function Headere() {
               isPending
                 ? "pending"
                 : isActive
-                ? "text-Primary underline font-[vazir-bold]"
+                ? "text-Primary  font-[vazir-bold]  border-b-1"
                 : ""
             }
           >
@@ -129,7 +133,7 @@ function Headere() {
               isPending
                 ? "pending"
                 : isActive
-                ? "text-Primary underline font-[vazir-bold]"
+                ? "text-Primary  font-[vazir-bold]  border-b-1"
                 : ""
             }
           >
@@ -143,7 +147,7 @@ function Headere() {
               isPending
                 ? "pending"
                 : isActive
-                ? "text-Primary underline font-[vazir-bold]"
+                ? "text-Primary  font-[vazir-bold]  border-b-1"
                 : ""
             }
           >
@@ -159,11 +163,12 @@ function Headere() {
         <div className="w-10 h-10 rounded-sm bg-Primary/10 flex items-center justify-center ">
           <img src={Shopping} alt="Shopping" />
         </div>
+        {/* this button has dropdown */}
         <div className="w-14.5 h-10 rounded-sm bg-Primary/10 flex items-center justify-center  relative ">
           <img src={User} alt="User" />
           <span className="dropButton  h-full flex items-center">
             <img src={Arrow} alt="Arrow" />
-            <div className="dropCard   w-36 h-50 absolute top-10  left-0.5 shadow-[0px_0px_6px_0px_rgba(0,_0,_0,_0.15)] rounded-md py-1 px-2 hidden flex-col justify-around">
+            <div className="dropCard z-10 bg-white w-36 h-50 absolute top-10  left-0.5 shadow-[0px_0px_6px_0px_rgba(0,_0,_0,_0.15)] rounded-md py-1 px-2 hidden flex-col justify-around">
               <div className=" border-b-1 ">
                 <Link to={"TestPage"} className="w-full flex items-center">
                   <svg
@@ -281,6 +286,7 @@ function Headere() {
             </div>
           </span>
         </div>
+        {/*  */}
       </div>
     </header>
   );
