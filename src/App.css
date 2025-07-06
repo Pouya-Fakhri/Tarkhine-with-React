@@ -45,5 +45,11 @@
 }
 .dropCard:hover{
   display: flex;
+}
 
+.jajsjs{
+  background-image: url(jfkdl);
+  background-size:contain;
+  border: 1 solid black;
+  
 }

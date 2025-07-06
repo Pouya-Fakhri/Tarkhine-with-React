@@ -1,8 +1,8 @@
-import Logo from "../assets/FullLogo.svg";
-import Search from "../assets/SearchIcon.svg";
-import Shopping from "../assets/ShoppingIcon.svg";
-import User from "../assets/UserIcon.svg";
-import Arrow from "../assets/ArrowDown.svg";
+import Logo from "../assets/SVGs/FullLogo.svg";
+import Search from "../assets/SVGs/SearchIcon.svg";
+import Shopping from "../assets/SVGs/ShoppingIcon.svg";
+import User from "../assets/SVGs/UserIcon.svg";
+import Arrow from "../assets/SVGs/ArrowDown.svg";
 
 import { Link, NavLink } from "react-router-dom";
 
